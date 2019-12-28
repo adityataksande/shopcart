@@ -3,11 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="18e83539-99f5-4bd2-a622-0fdc944f1bfa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/cart/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/shop/templates/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/shop/templates/shop/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +52,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.20795107" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -60,6 +78,8 @@
       <option name="presentableId" value="Default" />
       <updated>1577454053941</updated>
       <workItem from="1577454055332" duration="3808000" />
+      <workItem from="1577510050741" duration="238000" />
+      <workItem from="1577510302970" duration="1391000" />
     </task>
     <servers />
   </component>
@@ -67,17 +87,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1065" y="152" key="CommitChangelistDialog2" timestamp="1577457864101">
+    <state x="1032" y="216" key="#Deployment" timestamp="1577510434429">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1065" y="152" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1577457864101" />
-    <state x="1135" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1577510052206">
+    <state x="1032" y="216" key="#Deployment/0.30.1920.1050@0.30.1920.1050" timestamp="1577510434429" />
+    <state x="1065" y="152" key="CommitChangelistDialog2" timestamp="1577510441817">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1135" y="378" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1577510052206" />
-    <state x="1249" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577457870887">
+    <state x="1065" y="152" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1577510441817" />
+    <state x="922" y="197" key="SettingsEditor" timestamp="1577510320869">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1249" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1920.1050@0.30.1920.1050" timestamp="1577457870887" />
+    <state x="922" y="197" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1577510320869" />
+    <state x="1135" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1577510307730">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1135" y="378" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1577510307730" />
+    <state x="1249" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577510407130">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1249" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1920.1050@0.30.1920.1050" timestamp="1577510407130" />
   </component>
 </project>
