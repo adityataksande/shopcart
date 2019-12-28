@@ -9,6 +9,30 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+    <style>
+      .col-md-3{
+        display: inline-block;
+        margin-left: -4px;
+      }
+      .col-md-3 img{
+        width: 100%;
+        height: auto;
+      }
+      body .carousel-indicators li{
+        background-color: blue;
+      }
+      body.carousel-indicators{
+        bottom: 0;
+      }
+      body .carousel-control-prev-icon,
+      body .carousel-control-next-icon{
+        background-color: blue;
+      }
+      body .no-padding{
+        padding-left:0;
+        padding-right:0;
+      }
+    </style>
   </head>
   <body>
    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -46,6 +70,7 @@
     </form>
   </div>
 </nav>
+   <div id="demo" class="carousel slide" data-ride="carousel">
    <ul class="carousel-indicators">
      <li data-target="#demo" data-slide-to="0" class="active"</li>
      <li data-target="#demo" data-slide-to="1" </li>
@@ -103,8 +128,16 @@
          <a href="#" class="btn btn-primary">Go somewhere</a>
        </div>
      </div>
-   </div>
+     </div>
 
+   </div>
+<!--left and right controls for the slide-->
+     <a class="carousel-control-prev-icon" href="#demo" data-slide="prev">
+        <span class="carousel-control-pre-icon"></span>
+     </a>
+      <a class="carousel-control-next-icon" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+     </a>
 <!--    {% load static %}-->
 <!--    <a href="{%static 'shop/newstatic.txt'%}">Click Me</a>-->
 
