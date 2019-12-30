@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e83539-99f5-4bd2-a622-0fdc944f1bfa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cart/shop/migrations/0002_auto_20191230_1753.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/shop/migrations/0003_auto_20191230_1807.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/shop/migrations/0004_auto_20191230_1808.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/shop/static/shop/buddha.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/shop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/shop/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/shop/templates/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/shop/templates/shop/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +77,33 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cart/manage.py" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.20795107" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="cart" />
+      <option name="INTERPRETER_OPTIONS" value="python manage.py runserver" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cart" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cart/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -104,6 +134,7 @@
       <workItem from="1577522620478" duration="13000" />
       <workItem from="1577535305669" duration="5135000" />
       <workItem from="1577592725993" duration="888000" />
+      <workItem from="1577691308686" duration="7045000" />
     </task>
     <servers />
   </component>
@@ -118,10 +149,18 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1032" y="216" key="#Deployment/0.30.1920.1050@0.30.1920.1050" timestamp="1577510434429" />
+    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577707099966">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="828" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1577707099966" />
     <state x="1065" y="152" key="CommitChangelistDialog2" timestamp="1577510441817">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1065" y="152" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1577510441817" />
+    <state x="1154" y="313" key="FileChooserDialogImpl" timestamp="1577698128727">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1154" y="313" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1577698128727" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1577516448434">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -130,13 +169,17 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="922" y="197" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1577510320869" />
-    <state x="1135" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1577535305723">
+    <state x="1135" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1577691309790">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="1135" y="378" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1577535305723" />
+    <state x="1135" y="378" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1577691309790" />
     <state x="1249" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577517477562">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="1249" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1920.1050@0.30.1920.1050" timestamp="1577517477562" />
+    <state x="1072" y="111" width="736" height="894" key="find.popup" timestamp="1577707454070">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1072" y="111" width="736" height="894" key="find.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1577707454070" />
   </component>
 </project>
